@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Login from '@/components/Login'
-import Chat from '@/components/Chat'
+import LoginView from '@/components/LoginView'
+import ChatView from '@/components/ChatView'
 
 Vue.use(Router)
 
@@ -9,14 +9,14 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
-      name: 'Login',
-      component: Login
+      path: '/login',
+      name: 'LoginView',
+      component: LoginView
     },
     {
-      path: '/chat',
-      name: 'Chat',
-      component: Chat
+      path: '/',
+      name: 'ChatView',
+      component: ChatView
     }
   ]
 })

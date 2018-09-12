@@ -1,14 +1,13 @@
 <template>
     <div id="login">
         {{ title }}
-        <router-link to="Chat">Chat</router-link>
     </div>
 </template>
 
 
 <script>
 export default {
-  name: 'Login',
+  name: 'LoginView',
   data () {
     return {
       title: 'Login.vue'
