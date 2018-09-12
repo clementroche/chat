@@ -1,6 +1,6 @@
 <template>
     <div>
-        <input type="text" v-model="message"><button @click="sendMessage">SEND</button>
+        <input type="text" v-model="message" v-on:keyup.enter="submit" placeholder="Evrivez votre message"><button @click="submit">Envoyer</button>
     </div>
 </template>
 
@@ -12,9 +12,10 @@ export default {
         }
     },
     methods: {
-        sendMessage () {
-            this.$emit('messageSent', this.message)
-            this.message = ''
+        submit () {
+            if(this.message != '')
+                this.$emit('messageSent', this.message)
+                this.message = ''
         }
     }
 }
