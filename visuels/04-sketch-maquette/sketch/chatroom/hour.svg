@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="589px" height="297px" viewBox="0 0 589 297" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>hour</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="CourierNewPSMT, Courier New" font-size="12" font-weight="normal">
+        <g id="Apple-TV" transform="translate(-512.000000, -218.000000)" fill="#757575">
+            <g id="hour" transform="translate(511.000000, 215.000000)">
+                <text id="10:25">
+                    <tspan x="0" y="10.0429493">10:25</tspan>
+                </text>
+                <text id="10:47">
+                    <tspan x="0" y="299">10:47</tspan>
+                </text>
+                <text id="10:38">
+                    <tspan x="555" y="181">10:38</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

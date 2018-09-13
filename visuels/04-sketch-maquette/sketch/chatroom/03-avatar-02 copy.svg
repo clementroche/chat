@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>03-avatar-02 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="24.5" cy="24.5429493" r="24.5"></circle>
+        <filter x="-14.3%" y="-10.2%" width="128.6%" height="128.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-500.000000, -440.000000)">
+            <g id="03-avatar-02-copy" transform="translate(504.000000, 442.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="03-avatar-02" mask="url(#mask-2)">
+                    <g transform="translate(2.000000, 2.000000)" id="03-avatar-06">
+                        <g>
+                            <ellipse id="Oval" fill="#E9F6F8" fill-rule="nonzero" cx="22.5" cy="22.5315287" rx="22.5" ry="22.4283439"></ellipse>
+                            <path d="M22.7300319,10.0146497 L17.1416933,7.84203822 C21.1485623,-0.762420382 39.4519169,2.72292994 41.5193291,11.9765924 C42.7742859,17.5885005 41.8064762,23.4667152 38.8178914,28.3843949 C33.8908946,36.5030255 21.4217252,33.7371019 20.3851438,24.3057325 C19.843054,19.4179733 20.6540078,14.4755592 22.7300319,10.0146497 Z" id="Shape" fill="#9DD0D6" fill-rule="nonzero"></path>
+                            <ellipse id="Oval" fill="#701873" fill-rule="nonzero" cx="22.3030351" cy="19.1092357" rx="8.97124601" ry="13.6748408"></ellipse>
+                            <path d="M23.2059105,5.50318471 C23.2059105,5.50318471 31.0471246,23.1305732 22.3030351,32.7840764 C22.3030351,32.7840764 30.949361,34.1555732 31.2742812,19.1092357 C31.5992013,4.06289809 23.2059105,5.50318471 23.2059105,5.50318471 Z" id="Shape" fill="#9C36A3" fill-rule="nonzero"></path>
+                            <ellipse id="Oval" fill="#701873" fill-rule="nonzero" transform="translate(13.546554, 17.399389) rotate(-84.080000) translate(-13.546554, -17.399389) " cx="13.5465535" cy="17.3993892" rx="2.48578275" ry="1.25254777"></ellipse>
+                            <ellipse id="Oval" fill="#9C36A3" fill-rule="nonzero" transform="translate(31.283400, 16.782181) rotate(-11.790000) translate(-31.283400, -16.782181) " cx="31.2834005" cy="16.7821809" rx="1.35" ry="2.82181529"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="13.1060703" cy="17.2691083" rx="1" ry="1.38726115"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="31.8824281" cy="16.6557325" rx="1" ry="1.38726115"></ellipse>
+                            <path d="M13.2900958,19.8630573 C13.2900958,19.8630573 14.3496805,26.0971338 9.19121406,27.2708599 C4.0327476,28.444586 3.29664537,33.1466561 5.94776358,35.3507962 C8.59888179,37.5549363 10.1400958,40.6390127 10.1400958,40.6390127 C10.1400958,40.6390127 11.1421725,37.5477707 8.91373802,34.3218153 C6.68530351,31.0958599 15.3833866,30.9425159 15.6709265,26.2404459 C15.9584665,21.5383758 16.0605431,19.8042994 13.2900958,19.8630573 Z" id="Shape" fill="#701873" fill-rule="nonzero"></path>
+                            <path d="M15.1907348,16.3547771 C15.1907348,16.3547771 15.4653355,20.4334395 13.2900958,19.8630573 C13.2900958,19.8630573 14.6501597,19.9791401 15.1907348,16.3547771 Z" id="Shape" fill="#9C36A3" fill-rule="nonzero"></path>
+                            <path d="M13.8019169,14.933121 C13.8019169,14.933121 10.5958466,6.7227707 14.2461661,4.75079618 C17.8964856,2.77882166 21.3685304,-0.0902866242 23.2059105,4.3839172 C25.0432907,8.85812102 13.8019169,14.933121 13.8019169,14.933121 Z" id="Shape" fill="#701873" fill-rule="nonzero"></path>
+                            <path d="M20.8351438,2.00636943 C20.8351438,2.00636943 29.9041534,1.71974522 28.4333866,8.47261146 C26.9626198,15.2254777 22.8594249,4.41401274 20.8351438,2.00636943 Z" id="Shape" fill="#9C36A3" fill-rule="nonzero"></path>
+                            <path d="M31.8623003,19.5434713 C31.8623003,19.5434713 30.1514377,20.0421975 29.8926518,16.6557325 C29.8926518,16.6557325 30.3570288,19.3471338 31.8623003,19.5434713 Z" id="Shape" fill="#701873" fill-rule="nonzero"></path>
+                            <path d="M20.1033546,19.5692675 C20.1033546,19.5692675 19.9135783,31.9242038 14.9865815,34.3218153 C10.0595847,36.7194268 15.2396166,43.1369427 18.9244409,42.5493631 C22.6092652,41.9617834 24.5616613,41.2265924 24.3201278,39.7576433 C24.3201278,39.7576433 20.3046326,42.9907643 18.6541534,40.6390127 C17.0036741,38.2872611 20.1421725,34.2515924 20.7833866,32.8184713 C21.4246006,31.3853503 22.9097444,22.3007962 20.1033546,19.5692675 Z" id="Shape" fill="#701873" fill-rule="nonzero"></path>
+                            <path d="M26.9051118,20.8246815 C26.9051118,20.8246815 30.628754,29.5796178 28.1990415,32.9861465 C25.7693291,36.3926752 27.9359425,41.2423567 31.6495208,39.185828 C35.363099,37.1292994 40.485623,33.6582803 39.6905751,30.2503185 C39.6905751,30.2503185 35.0051118,37.5692675 33.3388179,35.6603503 C31.672524,33.7514331 35.8892971,31.9901274 33.3388179,27.8742038 C30.7883387,23.7582803 29.800639,22.1503185 26.9051118,20.8246815 Z" id="Shape" fill="#9C36A3" fill-rule="nonzero"></path>
+                            <path d="M29.8926518,20.8246815 C29.8926518,20.8246815 31.7429712,19.4976115 36.9014377,21.7676752 C42.0599042,24.0377389 42.6421725,11.735828 35.4277955,8.47261146 C35.4277955,8.47261146 43.5335463,8.73917197 42.5027157,17.2691083 C41.471885,25.7990446 38.5303514,31.3853503 35.4277955,27.2708599 C32.3252396,23.1563694 27.9273163,23.6880573 27.9273163,23.6880573 C27.9273163,23.6880573 27.8913738,20.5495223 29.8926518,20.8246815 Z" id="Shape" fill="#9C36A3" fill-rule="nonzero"></path>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" transform="translate(27.236760, 6.580447) rotate(-27.332359) translate(-27.236760, -6.580447) " cx="27.2367604" cy="6.58044745" rx="1" ry="1.09692816"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" transform="translate(25.627351, 10.444027) rotate(-27.520000) translate(-25.627351, -10.444027) " cx="25.6273514" cy="10.4440266" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" transform="translate(18.611707, 7.832903) rotate(-72.520000) translate(-18.611707, -7.832903) " cx="18.6117065" cy="7.83290298" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" transform="translate(17.743748, 13.374220) rotate(-5.800000) translate(-17.743748, -13.374220) " cx="17.7437478" cy="13.3742196" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" transform="translate(21.899380, 17.397980) rotate(-72.520000) translate(-21.899380, -17.397980) " cx="21.8993804" cy="17.3979797" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" transform="translate(27.890839, 18.655676) rotate(-27.520000) translate(-27.890839, -18.655676) " cx="27.8908395" cy="18.6556761" rx="1.09840256" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" transform="translate(17.193203, 19.352071) rotate(-72.520000) translate(-17.193203, -19.352071) " cx="17.1932031" cy="19.3520708" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" transform="translate(20.480877, 28.917147) rotate(-72.520000) translate(-20.480877, -28.917147) " cx="20.480877" cy="28.9171475" rx="1" ry="1"></ellipse>
+                            <path d="M30.877476,24.0348726 C30.877476,24.0348726 34.1539936,23.5533439 35.621885,25.4679936 C37.0897764,27.3826433 41.921885,20.8289809 41.921885,20.8289809 C41.921885,20.8289809 41.1167732,24.7686306 39.891853,26.7592357 C38.6669329,28.7498408 37.6979233,29.7931529 35.8030351,27.7351911 C33.908147,25.6772293 31.8752396,23.9761146 30.877476,24.0348726 Z" id="Shape" fill="#701873" fill-rule="nonzero"></path>
+                            <path d="M32.1397764,25.9538217 C32.1397764,25.9538217 33.8305112,30.6057325 32.3223642,33.2011146 C30.8142173,35.7964968 29.829393,38.9335987 32.1397764,37.7555732 C34.4501597,36.5775478 39.484984,33.7428344 39.6905751,30.2503185 C39.6905751,30.2503185 35.315655,36.2178344 33.3388179,35.6603503 C31.3619808,35.1028662 37.9854633,28.6366242 32.1397764,25.9538217 Z" id="Shape" fill="#701873" fill-rule="nonzero"></path>
+                            <path d="M19.9610224,34.0523885 C19.9917432,34.004733 19.9872523,33.9425904 19.9499963,33.8998162 C19.9127403,33.8570419 19.851647,33.8438861 19.8,33.8675159 C18.3623003,34.5525478 14.7436102,36.616242 16.6154952,39.2732484 C18.9244409,42.5493631 22.0514377,43.033758 24.3201278,39.7576433 C24.3201278,39.7576433 20.365016,41.1420382 19.6533546,39.6773885 C19.0236422,38.3818471 19.0337061,35.4382166 19.9610224,34.0523885 Z" id="Shape" fill="#9C36A3" fill-rule="nonzero"></path>
+                            <path d="M14.0808307,29.119586 C14.0808307,29.119586 9.0014377,29.3130573 7.77220447,31.2821656 C6.54297125,33.2512739 7.57667732,35.1601911 8.31277955,35.893949 C9.04888179,36.627707 10.1990415,39.7533439 10.1400958,40.6390127 C10.0811502,41.5246815 11.4210863,37.7971338 9.49888179,35.3035032 C7.57667732,32.8098726 14.1498403,30.4251592 14.0808307,29.119586 Z" id="Shape" fill="#9C36A3" fill-rule="nonzero"></path>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="10.4261981" cy="31.9815287" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="10.5555911" cy="38.0092357" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="9.09488818" cy="33.5421975" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="9.69440895" cy="35.775" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="12.6028754" cy="30.5770701" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="9.09488818" cy="30.3535032" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="7.6327476" cy="31.8855096" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="7.6327476" cy="33.8546178" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="10.5555911" cy="29.119586" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#000000" fill-rule="nonzero" cx="32.2835463" cy="16.1269108" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#000000" fill-rule="nonzero" cx="13.3332268" cy="16.6557325" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="19.3845048" cy="35.3378981" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="17.7426518" cy="35.3378981" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="18.4730032" cy="37.5721338" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(17.447449, 39.676687) rotate(-45.000000) translate(-17.447449, -39.676687) " cx="17.4474493" cy="39.6766869" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="16.3667732" cy="37.1106688" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(19.559056, 39.677060) rotate(-45.000000) translate(-19.559056, -39.677060) " cx="19.5590562" cy="39.6770598" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(21.357936, 41.034282) rotate(-45.000000) translate(-21.357936, -41.034282) " cx="21.3579358" cy="41.034282" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" cx="37.6188498" cy="21.9625796" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(35.791060, 21.393593) rotate(-45.000000) translate(-35.791060, -21.393593) " cx="35.7910595" cy="21.3935931" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(39.394974, 21.644581) rotate(-16.820000) translate(-39.394974, -21.644581) " cx="39.3949742" cy="21.6445807" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(40.438616, 20.256384) rotate(-45.000000) translate(-40.438616, -20.256384) " cx="40.4386156" cy="20.2563843" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(40.834649, 18.198624) rotate(-45.000000) translate(-40.834649, -18.198624) " cx="40.834649" cy="18.1986236" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(35.790966, 34.467863) rotate(-45.000000) translate(-35.790966, -34.467863) " cx="35.7909663" cy="34.4678632" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(33.055581, 33.856536) rotate(-16.820000) translate(-33.055581, -33.856536) " cx="33.0555813" cy="33.8565358" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(33.338596, 35.609307) rotate(-45.000000) translate(-33.338596, -35.609307) " cx="33.3385956" cy="35.6093069" rx="1" ry="1"></ellipse>
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" opacity="0.63" transform="translate(33.963316, 31.885120) rotate(-45.000000) translate(-33.963316, -31.885120) " cx="33.9633165" cy="31.88512" rx="1" ry="1"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

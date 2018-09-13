@@ -6,17 +6,12 @@
 
 <script>
 import User from '@/components/User.vue'
+import store from '@/store.js'
 
 export default {
   name: 'UsersList',
-  data () {
-      return {
-          users:[
-              'user1',
-              'user2',
-              'user3'
-          ]
-      }
+  computed: {
+      users: () => store.users
   },
   components: {
       User

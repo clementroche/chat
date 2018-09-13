@@ -1,5 +1,5 @@
 <template>
-    <li>{{ message }}</li>
+    <li>{{ message.user.username }}: {{ message.text}}</li>
 </template>
 
 <script>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="80px" viewBox="0 0 1280 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>barre-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="66"></rect>
+        <filter x="-0.9%" y="-22.7%" width="101.9%" height="154.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.207823822 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="0.318646154 0.0213571429 29.6097231 0.0213571429 29.6097231 13 0.318646154 13"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV-Copy">
+            <g id="barre-logo" transform="translate(-2.000000, 0.000000)">
+                <g id="Barre_menu-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="logo" transform="translate(528.000000, 13.000000)">
+                    <text id="THE-BOTTLE" font-family="CourierNewPSMT, Courier New" font-size="36" font-weight="normal" fill="#757575">
+                        <tspan x="0" y="30">THE BOTTLE</tspan>
+                    </text>
+                    <g transform="translate(225.000000, 16.000000)">
+                        <path d="M6.00505999,8.10242857 L1.28242068,8.10242857 C0.57407157,8.10242857 0,7.53228571 0,6.82935714 L0,5.27260714 C0,4.56967857 0.57407157,4 1.28242068,4 L6.00505999,4 C6.7134091,4 7.28794853,4.56967857 7.28794853,5.27260714 L7.28794853,6.82935714 C7.28794853,7.53228571 6.7134091,8.10242857 6.00505999,8.10242857" id="Fill-1" fill="#757575"></path>
+                        <g id="Group-5" transform="translate(3.000000, 0.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-4"></g>
+                            <path d="M24.8281846,13.0000464 L5.10018462,13.0000464 C2.45926154,13.0000464 0.318646154,10.846225 0.318646154,8.19004643 L0.318646154,5.974475 C0.318646154,2.68640357 2.96833846,0.0209392857 6.23649231,0.0209392857 L24.8281846,0.0209392857 C27.4691077,0.0209392857 29.6097231,2.17476071 29.6097231,4.83140357 L29.6097231,8.19004643 C29.6097231,10.846225 27.4691077,13.0000464 24.8281846,13.0000464" id="Fill-3" fill="#757575" mask="url(#mask-4)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

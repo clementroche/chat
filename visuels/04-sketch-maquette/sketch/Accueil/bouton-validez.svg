@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="23px" viewBox="0 0 67 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bouton-validez</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV-Copy" transform="translate(-613.000000, -641.000000)">
+            <g id="bouton-validez" transform="translate(613.000000, 641.000000)">
+                <g id="bouton-send-04" stroke-width="1" fill-rule="evenodd" transform="translate(33.500000, 11.500000) rotate(180.000000) translate(-33.500000, -11.500000) " fill="#5FD1E0">
+                    <path d="M61.1395738,1.52281085e-06 L12.870672,1.52281085e-06 C9.64602018,0.00926783822 7.0354666,2.66953722 7.03092484,5.95096179 L7.03092484,6.73376137 L2.02247312,6.73376137 C1.48321923,6.73374301 0.966289476,6.95287731 0.586535745,7.34247682 C0.206782014,7.73207633 -0.00434331832,8.25987322 6.77567125e-05,8.80860112 L6.77567125e-05,12.722599 C6.77567125e-05,14.0149352 1.0295907,15.0625806 2.2995716,15.0625806 L7.03092484,15.0625806 L7.03092484,17.0364139 C7.03090474,20.3218112 9.6421266,22.9884072 12.870672,23 L61.1395738,23 C64.3761978,23 67,20.3300116 67,17.0364139 L67,5.95096179 C66.9954348,2.66133231 64.3723007,-0.00232494434 61.1395738,1.52281085e-06 Z" id="Shape" fill-rule="nonzero"></path>
+                </g>
+                <text id="VALIDEZ" font-family="CourierNewPSMT, Courier New" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="1" y="16">VALIDEZ</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

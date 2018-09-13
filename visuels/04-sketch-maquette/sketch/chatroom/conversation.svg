@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="467px" height="409px" viewBox="0 0 467 409" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>conversation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-572.000000, -147.000000)">
+            <g id="conversation" transform="translate(572.000000, 147.000000)">
+                <g id="02-conversation">
+                    <rect id="Rectangle-4-Copy" fill="#D8D8D8" opacity="0.541685268" x="0" y="0.0429493098" width="224" height="32" rx="9"></rect>
+                    <text id="Hello!" font-family="CourierNewPSMT, Courier New" font-size="18" font-weight="normal" fill="#757575">
+                        <tspan x="20" y="22.0429493">Hello!</tspan>
+                    </text>
+                </g>
+                <g id="03-conversation" transform="translate(243.000000, 164.000000)">
+                    <rect id="Rectangle-4-Copy-2" fill="#E5F5F8" x="0" y="0.0429493098" width="224" height="87.9570507" rx="15"></rect>
+                    <text id="Hello!-Quoi-de-neuf?" font-family="CourierNewPSMT, Courier New" font-size="18" font-weight="normal" fill="#757575">
+                        <tspan x="20" y="33">Hello! </tspan>
+                        <tspan x="20" y="53">Quoi de neuf?</tspan>
+                    </text>
+                </g>
+                <g id="01-conversation" transform="translate(0.000000, 307.000000)">
+                    <rect id="Rectangle-4-Copy-2" fill="#D8D8D8" opacity="0.423772321" x="0" y="0.0429493098" width="224" height="101" rx="12"></rect>
+                    <text id="Bien-et-toi?-Comment" font-family="CourierNewPSMT, Courier New" font-size="18" font-weight="normal" fill="#757575">
+                        <tspan x="15" y="33">Bien et toi? </tspan>
+                        <tspan x="15" y="53">Comment était </tspan>
+                        <tspan x="15" y="73">ton week-end?  </tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

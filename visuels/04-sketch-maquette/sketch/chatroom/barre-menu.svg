@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="800px" viewBox="0 0 65 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>barre-menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-1215.000000, 0.000000)">
+            <g id="barre-menu" transform="translate(1215.000000, 0.000000)">
+                <rect id="Rectangle-4" fill="#E5F5F8" x="0" y="0" width="65" height="800"></rect>
+                <g id="bouton-deconnexion" transform="translate(23.000000, 24.000000)" fill="#757575" stroke-width="1">
+                    <g id="deconnexion-symbole-03">
+                        <rect id="Rectangle-path" fill-rule="nonzero" x="8.71363636" y="7.56944444" width="1.65" height="11.0787037"></rect>
+                        <path d="M16.6227273,15.1805556 C16.5160142,19.0943757 13.3650355,22.2078135 9.520907,22.1977645 C5.67677845,22.1877156 2.54153235,19.057845 2.45454545,15.1435185 L0.559090909,15.1435185 L0.559090909,15.1944444 C0.485824308,18.5109903 2.18111109,21.6080452 4.98952444,23.2882347 C7.7979378,24.9684243 11.2793349,24.9684243 14.0877483,23.2882347 C16.8961616,21.6080452 18.5914484,18.5109903 18.5181818,15.1944444 L16.6227273,15.1805556 Z" id="Shape" fill-rule="nonzero"></path>
+                        <ellipse id="Oval" fill-rule="nonzero" cx="9.65909091" cy="1.44444444" rx="1.21818182" ry="1.24074074"></ellipse>
+                        <polygon id="Shape" fill-rule="nonzero" points="1.44090909 14.0601852 0 14.0601852 0.722727273 12.787037 1.44090909 11.5138889 2.16363636 12.787037 2.88636364 14.0601852"></polygon>
+                        <polygon id="Shape" fill-rule="nonzero" points="18.5181818 14.0601852 17.0772727 14.0601852 17.8 12.787037 18.5181818 11.5138889 19.2409091 12.787037 19.9636364 14.0601852"></polygon>
+                        <rect id="Rectangle-path" fill-rule="nonzero" x="6.45" y="4.4212963" width="6.48181818" height="1.27314815"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
