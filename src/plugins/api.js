@@ -8,7 +8,6 @@ const api = {
     return socket.connected
   },
   userRegister (username, avatar = '') {
-      console.log(username)
     return new Promise((resolve, reject) => {
       socket.once('user registered', (user) => {
         resolve(user)

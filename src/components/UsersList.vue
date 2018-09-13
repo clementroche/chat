@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="userlist">
         <User v-for="(user,index) in users" :key="index" :user="user"></User>
     </div>
 </template>
@@ -18,3 +18,10 @@ export default {
   }
 }
 </script>
+
+
+<style lang="scss" scoped>
+#userlist{
+    width:40%;
+}
+</style>

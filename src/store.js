@@ -24,13 +24,21 @@ const store = new Vue({
         user,
         users
       }) => {
-        store.users = users
+        if (store.users.length === 0) {
+          store.users = users
+        }
+        console.log('usersUpdate')
         if (type === 'join') {
           //  push
+          store.users.push(user)
         }
-
         if (type === 'left') {
-          // splice index
+          console.log(user[0])
+          for (let i = 0; i < store.users.length; i++) {
+            if (store.users[i].username === user[0].username) {
+              store.users.splice(i, 1)
+            }
+          }
         }
       })
     })

@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <MessagesList :messages="messages"></MessagesList>
+    <div id="chatbox">
+        <MessagesList :messages="messages" ref="messageList"></MessagesList>
         <SendBox @messageSent="sendMessage"></SendBox>
     </div>
 </template>
@@ -22,9 +22,22 @@ export default {
   computed: {
       messages: () => store.messages
   },
+  watch: {
+      messages () {
+          this.$refs.messageList.scrollToBottom();
+      }
+  },
   components: {
     SendBox,
     MessagesList
   }
 }
 </script>
+
+<style lang="scss" scoped>
+#chatbox{
+    width:60%;
+    // height: 80%;
+    padding-right:75px;
+}
+</style>

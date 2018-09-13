@@ -1,15 +1,12 @@
 <template>
-<div  id="login">
+<div id="login">
   <the-header></the-header>
       <div class="top"></div>
       <div class="bottom">
         <div class="avatars">
           <div class="img-container" v-if="index != 0 && index != 4" v-for="(avatar,index) in avatars" :key="index" :class="{ 'current':(index == 2) }" @click="switchAvatar(index)">
-            <img :src="importImage(avatar)" alt="">
+            <img :src="'http://rocheclement.fr/ext/' + avatar + '.svg'" alt="">
           </div>
-          <!--<div class="img-container"><img src="../assets/logo.png" alt=""></div>
-          <div class="img-container current"><img src="../assets/logo.png" alt=""></div>
-          <div class="img-container"><img src="../assets/logo.png" alt=""></div>-->
         </div>
         <form action="" @submit.prevent="login">
           <input type="text" name="" id="" v-model="pseudo" :placeholder="placeholder" @focus="resetPlaceholder" @blur="setPlaceholder">
@@ -41,12 +38,12 @@ export default {
   },
   methods : {
     login() {
-      console.log(this.user)
       if(this.pseudo.length>0){
         this.$api.userRegister(
-          this.user.username
+          this.user.username,
+          this.user.avatar
         )
-          .then((user) => {
+        .then((user) => {
           store.user = user
           this.$router.push({ name: 'chat' })
         })
@@ -58,9 +55,9 @@ export default {
     setPlaceholder() {
       this.placeholder = 'Ecrivez votre nom...'
     },
-    importImage(url) {
-      return require('@/assets/svg/'+ url +'.svg')
-    },
+    // importImage(url) {
+    //   return require('@/assets/svg/'+ url +'.svg')
+    // },
     switchAvatar(index){
       if(index === 3){
         this.avatars.push(this.avatars[2])
@@ -75,7 +72,7 @@ export default {
     user () {
       return {
         username: this.pseudo,
-        avatar: this.avatar
+        avatar: 'http://rocheclement.fr/ext/' + this.avatars[3] + '.svg'
       }
     }
   },
