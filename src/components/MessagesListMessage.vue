@@ -3,10 +3,9 @@
       <div class="message" :class="{'current':(message.user.username === currentUser.username)}">
         <div class="left">
           <div class="img-container">
-            <img :src="message.user.avatar" alt="" v-if="message.user.avatar.includes('http')">
-            <img src="http://rocheclement.fr/ext/02-avatar.svg" alt="" v-else>
+            <img :src="message.user.avatar" alt="">
           </div>
-          <span class="time">10:25</span>
+          <span class="time">{{ message.created | moment("HH:mm")  }}</span>
         </div>
         <div class="right">
           <span class="username">{{ message.user.username }}</span>
@@ -24,6 +23,8 @@ export default {
   props: ['message'],
   computed: {
     currentUser: () => store.user
+  },
+  methods: {
   }
 }
 </script>
@@ -43,6 +44,10 @@ export default {
     order:5;
     margin-right:0;
     margin-left: 15px;
+  }
+
+  .message.current .text{
+    background: #E5F5F8
   }
 
   .right,.left{
@@ -71,11 +76,12 @@ export default {
 
   .text{
     font-family: 'Courier New', Courier, monospace;
-    background-color: #EEEEEE;
+    background-color: #D8D8D8;
     padding:15px;
     color: #757575;
     font-size: 16px;
     border-radius: 12px;
+    word-break: break-all;
   }
 
   .img-container{
@@ -87,6 +93,7 @@ export default {
   .img-container img{
     border-radius: 100px;
     width:100%;
+    height: 100%;
   }
 
   .time{

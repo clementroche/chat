@@ -1,20 +1,22 @@
 <template>
+<transition name="fade-right">
 <div id="login">
   <the-header></the-header>
       <div class="top"></div>
       <div class="bottom">
         <div class="avatars">
-          <div class="img-container" v-if="index != 0 && index != 4" v-for="(avatar,index) in avatars" :key="index" :class="{ 'current':(index == 2) }" @click="switchAvatar(index)">
+          <div class="img-container bounceIn" v-if="index != 0 && index != 4" v-for="(avatar,index) in avatars" :key="index" :class="{ 'current':(index == 2) }" @click="switchAvatar(index)">
             <img :src="'http://rocheclement.fr/ext/' + avatar + '.svg'" alt="">
           </div>
         </div>
-        <form action="" @submit.prevent="login">
+        <form action="" @submit.prevent="login" class="fadeInUp">
           <input type="text" name="" id="" v-model="pseudo" :placeholder="placeholder" @focus="resetPlaceholder" @blur="setPlaceholder">
           <input type="text" name="" id="" v-model="avatar" hidden>
-          <button type="submit">valider</button>
+            <button type="submit" v-if="pseudo.length > 0">valider</button>
         </form>
       </div>
     </div>
+  </transition>
 </template>
 
 
@@ -72,7 +74,7 @@ export default {
     user () {
       return {
         username: this.pseudo,
-        avatar: 'http://rocheclement.fr/ext/' + this.avatars[3] + '.svg'
+        avatar: 'http://rocheclement.fr/ext/' + this.avatars[2] + '.svg'
       }
     }
   },
@@ -146,6 +148,7 @@ form {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  animation-duration: 1s;
 }
 
 form input{

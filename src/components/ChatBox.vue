@@ -1,8 +1,8 @@
 <template>
-    <div id="chatbox">
-        <MessagesList :messages="messages" ref="messageList"></MessagesList>
-        <SendBox @messageSent="sendMessage"></SendBox>
-    </div>
+        <div id="chatbox" class="fadeIn">
+            <MessagesList :messages="messages" ref="messageList"></MessagesList>
+            <SendBox @messageSent="sendMessage"></SendBox>
+        </div>
 </template>
 
 <script>
@@ -14,7 +14,6 @@ export default {
   name: 'ChatBox',
   methods: {
       sendMessage (msg) {
-          console.log(msg)
           //store.messages.push(msg)
           this.$api.messageSend(msg)
       }
@@ -39,5 +38,6 @@ export default {
     width:60%;
     // height: 80%;
     padding-right:75px;
+    margin-left:75px;
 }
 </style>

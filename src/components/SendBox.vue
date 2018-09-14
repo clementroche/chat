@@ -1,6 +1,6 @@
 <template>
-    <div id="sendbox">
-        <input type="text" v-model="message" v-on:keyup.enter="submit" placeholder="Ecrivez votre message..."><button @click="submit">Envoyez</button>
+    <div id="sendbox" class="fadeInUp">
+        <input type="text" v-model="message" v-on:keyup.enter="submit" :placeholder="placeholder" @focus="resetPlaceholder" @blur="setPlaceholder"><button @click="submit">Envoyez</button>
     </div>
 </template>
 
@@ -8,7 +8,8 @@
 export default {
     data () {
         return {
-            message: ''
+            message: '',
+            placeholder:'Ecrivez votre message...'
         }
     },
     methods: {
@@ -16,15 +17,24 @@ export default {
             if(this.message != '')
                 this.$emit('messageSent', this.message)
                 this.message = ''
-        }
+                let audio = new Audio(require('@/assets/media/send-message3.mp3'));
+                audio.play();
+        },
+        resetPlaceholder() {
+            this.placeholder = ''
+        },
+        setPlaceholder() {
+            this.placeholder = 'Ecrivez votre nom...'
+        },
     }
 }
 </script>
 
 <style lang="scss" scoped>
-.sendbox{
+#sendbox{
     display:flex;
     align-items:center;
+    justify-content: center;
 }
 
 input{
@@ -36,7 +46,7 @@ input{
   text-align: left;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
-  color: #757575;
+  color: #D8D8D8;
   font-size: 14px;
   padding:0 25px;
   margin-right: 25px;

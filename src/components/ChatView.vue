@@ -1,9 +1,11 @@
 <template>
+<transition appear name="fade-left">
     <div id="chatview">
         <UsersList></UsersList>
         <ChatBox></ChatBox>
         <Sidebar></Sidebar>
     </div>
+</transition>
 </template>
 
 

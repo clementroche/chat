@@ -1,8 +1,8 @@
 <template>
     <div id="messagelist">
-        <ul ref="ul">
+        <transition-group tag="ul" ref="ul" name="list">
             <MessagesListMessage v-for="(message, index) in messages" :key="index" :message="message"></MessagesListMessage>
-        </ul>
+        </transition-group>
     </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
   methods: {
       scrollToBottom () {
           setTimeout(() => {
-              this.$refs.ul.scrollTo(0,100000*1000000)
+              this.$refs.ul.$el.scrollTo(0,100000*1000000)
           },0)
       }
   }
@@ -39,5 +39,13 @@ ul{
     overflow-y: scroll;
     overflow-x: hidden;
     padding:0 15px;
+}
+
+.list-enter-active, .list-leave-active {
+  transition: all 0.5s ease-out;
+}
+.list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {
+  opacity: 0;
+    transform: scale(0.5)
 }
 </style>
